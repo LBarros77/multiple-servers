@@ -1,7 +1,7 @@
 import socket, time
 
 
-HOST, PORT = '127.0.0.8', 50002
+HOST, PORT = '127.0.0.8', 5000
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
 	sock.bind((HOST, PORT))
